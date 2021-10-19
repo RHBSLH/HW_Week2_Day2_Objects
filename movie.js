@@ -5,6 +5,6 @@ const move={
 }
 {
 console.log(move.title+" last for "+move.duration+
- " minutes " +move.stars)
+ " minutes " +" stsrs "+move.stars.join(","))
 
 }
